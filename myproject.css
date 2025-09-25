@@ -1,0 +1,143 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+
+  background: url('khani.jpg') no-repeat center center/cover;
+ 
+  color: white;
+}
+
+.main {
+  
+  width: 100%;
+  height: 100%;
+  background-color: rgba(32, 30, 30, 0.6); /* dark overlay */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  text-decoration: underline;
+  margin-left: 200px;
+  margin-bottom:90px;
+}
+
+.logo {
+  font-size: 30px;
+  color: orange;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+.search input {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+
+.search button {
+  padding: 5px 10px;
+  background-color:rgb(238, 158, 10);
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+}
+
+.text {
+  max-width: 50%;
+}
+
+.text h1 {
+  font-size: 40px;
+}
+
+.text h1 span {
+  color: orange;
+}
+
+.text p {
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+.join {
+  padding: 10px 20px;
+  background-color: orange;
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.login-box {
+  background-color: rgba(17, 12, 12, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: orange;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.login {
+  width: 100%;
+  padding: 10px;
+  background-color: orange;
+  border: none;
+  color: rgb(8, 7, 7);
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.login-box p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login-box a {
+  color: orange;
+  text-decoration: none;
+}
+
